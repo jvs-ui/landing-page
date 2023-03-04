@@ -34,14 +34,31 @@ h3
 .phase3
 {
     background-color: #3882f6;
-    color: #E5E7EB;
-    display: block;
-    margin: 50px;
-    width: 1000px;
-    text-align: center;
-
+    color: white;
+    border-style: groove;
+    border-color: bisque;
+    font-family:cursive;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 50px;
+    margin-left: 500px;
+    width: 700px;
+    padding: 20px;
+    border-radius: 7px;
+    
+   
+}
+.twoline
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 180px;
 
 }
+
 
 h2
 {
@@ -87,7 +104,7 @@ button
 
 .family
 {
-    height: 800px;
+    height: 600px;
     width: 800px;
     margin-left: 200px;
     margin-right: 343px;
@@ -131,6 +148,7 @@ h2
    align-items: center;
    color: black;
    font-weight: bolder;
+ 
 }
 
 .david
